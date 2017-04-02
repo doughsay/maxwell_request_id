@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/doughsay/maxwell_request_id.svg?branch=master)](https://travis-ci.org/doughsay/maxwell_request_id)
 [![Code Coverage](https://img.shields.io/codecov/c/github/doughsay/maxwell_request_id.svg)](https://codecov.io/gh/doughsay/maxwell_request_id)
 [![Hex.pm](https://img.shields.io/hexpm/v/maxwell_request_id.svg)](http://hex.pm/packages/maxwell_request_id)
+[![Deps Status](https://beta.hexfaktor.org/badge/all/github/doughsay/maxwell_request_id.svg)](https://beta.hexfaktor.org/github/doughsay/maxwell_request_id)
 
 Maxwell middleware for adding x-request-id to outgoing requests.
 
@@ -47,5 +48,5 @@ middleware MaxwellRequestId.Middleware, [header_name: "x-transaction-id"]
 
 ## TODO
 
-* [ ] Tests
 * [ ] Docs
+* [ ] Check opts like other maxwell middleware
