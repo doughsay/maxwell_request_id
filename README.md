@@ -21,7 +21,7 @@ end
 defmodule MyClient do
   use Maxwell.Builder, ~w(get)a
 
-  middleware Maxwell.Middleware.RequestId
+  middleware MaxwellRequestId.Middleware
 
   def my_request_with_request_id(path) do
     path
@@ -37,5 +37,5 @@ end
 When adding the middleware, you can specify the name of the header to use for outgoing requests:
 
 ```elixir
-middleware Maxwell.Middleware.RequestId, [header_name: "x-transaction-id"]
+middleware MaxwellRequestId.Middleware, [header_name: "x-transaction-id"]
 ```
