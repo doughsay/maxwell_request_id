@@ -17,7 +17,8 @@ defmodule MaxwellRequestId.Mixfile do
   end
 
   defp deps do
-    [{:maxwell, ">= 2.2.0"}]
+    [{:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
+     {:maxwell, ">= 2.2.0"}]
   end
 
   defp description do
@@ -32,6 +33,7 @@ defmodule MaxwellRequestId.Mixfile do
   defp package do
     [maintainers: ["Chris Dosé <chris.dose@gmail.com>"],
      licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/doughsay/maxwell_request_id"}]
+     links: %{"GitHub" => "https://github.com/doughsay/maxwell_request_id"},
+              "Docs" => "https://hexdocs.pm/maxwell_request_id"}]
   end
 end
