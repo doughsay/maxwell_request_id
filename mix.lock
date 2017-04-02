@@ -1,0 +1,2 @@
+%{"maxwell": {:hex, :maxwell, "2.2.0", "bc37ce6cd15061c9a65276741bca4f7fa8ffd8c4045f7c41c5a45226e49c6b8b", [:mix], [{:fuse, "~> 2.4", [hex: :fuse, optional: true]}, {:hackney, "~> 1.6", [hex: :hackney, optional: true]}, {:ibrowse, "~> 4.2", [hex: :ibrowse, optional: true]}, {:mimerl, "~> 1.0.2", [hex: :mimerl, optional: false]}, {:poison, "~> 2.1 or ~> 3.0", [hex: :poison, optional: true]}]},
+  "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], []}}
