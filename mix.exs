@@ -33,7 +33,7 @@ defmodule MaxwellRequestId.Mixfile do
   defp package do
     [maintainers: ["Chris Dosé <chris.dose@gmail.com>"],
      licenses: ["MIT"],
-     links: %{"GitHub" => "https://github.com/doughsay/maxwell_request_id"},
+     links: %{"GitHub" => "https://github.com/doughsay/maxwell_request_id",
               "Docs" => "https://hexdocs.pm/maxwell_request_id"}]
   end
 end
